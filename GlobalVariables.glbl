@@ -2,4 +2,29 @@
 <GlobalVariableEntities>
    <description></description>
    <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'</initValue>
+      <name>G_SiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>10</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'N01001'</initValue>
+      <name>G_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'N01'</initValue>
+      <name>G_CarrierCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Nn@1234'</initValue>
+      <name>G_Password</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
