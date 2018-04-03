@@ -1,4 +1,4 @@
-package com.cct.common.security.login
+package com.cct.common.serviceschedule.openschedule
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -25,17 +25,6 @@ import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
-public class Home {
+public class OpenSchedule {
 
-	@Keyword
-	public static void gotoHome() {
-		WebUI.click(findTestObject("com/cct/security/main/div_home"))
-		
-	}
-	
-	@Keyword
-	public static void selectMenu(TestObject object) {
-		WebUI.click(object)
-		
-	}
 }
