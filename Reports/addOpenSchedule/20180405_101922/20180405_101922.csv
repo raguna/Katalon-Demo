@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addOpenSchedule,Firefox 58.0,,2018-04-05 10:19:24,2018-04-05 10:21:43,2m - 18.771s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:19:26,2018-04-05 10:19:44,18.225s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:19:26,2018-04-05 10:19:26,0.004s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:19:26,2018-04-05 10:19:38,12.156s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:19:38,2018-04-05 10:19:39,1.370s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:19:39,2018-04-05 10:19:43,3.934s,PASSED
+click,Firefox 58.0,,2018-04-05 10:19:43,2018-04-05 10:19:44,0.311s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:19:44,2018-04-05 10:19:44,0.064s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:19:44,2018-04-05 10:19:44,0.125s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:19:44,2018-04-05 10:20:01,16.760s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:19:44,2018-04-05 10:19:44,0.001s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:19:44,2018-04-05 10:19:55,11.379s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:19:55,2018-04-05 10:19:56,1.239s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:19:56,2018-04-05 10:20:00,3.711s,PASSED
+click,Firefox 58.0,,2018-04-05 10:20:00,2018-04-05 10:20:01,0.315s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:20:01,2018-04-05 10:20:01,0.054s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:20:01,2018-04-05 10:20:01,0.020s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:20:01,2018-04-05 10:20:34,33.640s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:20:01,2018-04-05 10:20:01,0.000s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:20:01,2018-04-05 10:20:29,28.294s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:20:29,2018-04-05 10:20:30,1.340s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:20:30,2018-04-05 10:20:34,3.691s,PASSED
+click,Firefox 58.0,,2018-04-05 10:20:34,2018-04-05 10:20:34,0.251s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:20:34,2018-04-05 10:20:34,0.030s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:20:34,2018-04-05 10:20:34,0.014s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:20:34,2018-04-05 10:20:51,16.803s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:20:34,2018-04-05 10:20:34,0.001s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:20:34,2018-04-05 10:20:46,11.314s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:20:46,2018-04-05 10:20:47,1.330s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:20:47,2018-04-05 10:20:51,3.746s,PASSED
+click,Firefox 58.0,,2018-04-05 10:20:51,2018-04-05 10:20:51,0.324s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:20:51,2018-04-05 10:20:51,0.044s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:20:51,2018-04-05 10:20:51,0.030s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:20:51,2018-04-05 10:21:08,17.214s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:20:51,2018-04-05 10:20:51,0.000s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:20:51,2018-04-05 10:21:03,11.711s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:21:03,2018-04-05 10:21:04,1.374s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:21:04,2018-04-05 10:21:08,3.787s,PASSED
+click,Firefox 58.0,,2018-04-05 10:21:08,2018-04-05 10:21:08,0.277s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:21:08,2018-04-05 10:21:08,0.031s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:21:08,2018-04-05 10:21:08,0.023s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:21:08,2018-04-05 10:21:25,16.852s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:21:08,2018-04-05 10:21:08,0.000s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:21:08,2018-04-05 10:21:20,11.304s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:21:20,2018-04-05 10:21:21,1.280s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:21:21,2018-04-05 10:21:25,3.886s,PASSED
+click,Firefox 58.0,,2018-04-05 10:21:25,2018-04-05 10:21:25,0.314s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:21:25,2018-04-05 10:21:25,0.043s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:21:25,2018-04-05 10:21:25,0.017s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-05 10:21:25,2018-04-05 10:21:42,17.289s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:21:25,2018-04-05 10:21:25,0.001s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:21:25,2018-04-05 10:21:37,11.573s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:21:37,2018-04-05 10:21:38,1.458s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:21:38,2018-04-05 10:21:42,3.766s,PASSED
+click,Firefox 58.0,,2018-04-05 10:21:42,2018-04-05 10:21:42,0.266s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-05 10:21:42,2018-04-05 10:21:42,0.028s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:21:42,2018-04-05 10:21:42,0.188s,PASSED

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="addOpenSchedule" time="23" tests="0" failures="1" errors="0">
+   <testsuite name="addOpenSchedule" tests="0" failures="1" errors="0" time="23" timestamp="2018-04-05 10:47:05" hostname="PG-Adul - PG-Adul.mshome.net" id="Test Suites/addOpenSchedule">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180405_104703"/>
+         <property name="logFiles" value="D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180405_104703\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PG-Adul - PG-Adul.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="172.27.98.17"/>
+         <property name="sessionId" value="cf4de4f5-f058-43ab-9509-f37d76f80b0a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id(&quot;initMainpage&quot;)/table[@class=&quot;FORM&quot;]/tbody[1]/tr[10]/td[1]/input[@class=&quot;btnSubmit ui-button ui-corner-all ui-widget&quot;][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]})"/>
+         <system-out><![CDATA[2018-04-05 10:47:06 - [TEST_CASE][FAILED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength FAILED because (of) Unable to click on object 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id("initMainpage")/table[@class="FORM"]/tbody[1]/tr[10]/td[1]/input[@class="btnSubmit ui-button ui-corner-all ui-widget"][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]})
+
+2018-04-05 10:47:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:47:06 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:47:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:47:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:47:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:47:16 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:47:17 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:47:17 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:47:17 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:47:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:47:18 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:47:18 - [TEST_STEP][FAILED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: Unable to click on object 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id("initMainpage")/table[@class="FORM"]/tbody[1]/tr[10]/td[1]/input[@class="btnSubmit ui-button ui-corner-all ui-widget"][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]})
+
+2018-04-05 10:47:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id("initMainpage")/table[@class="FORM"]/tbody[1]/tr[10]/td[1]/input[@class="btnSubmit ui-button ui-corner-all ui-widget"][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]})
+
+2018-04-05 10:47:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id("btnOpenNewSchedule")[count(. | //button[@id = 'btnOpenNewSchedule' and @type = 'button' and (text() = '
+								
+								open new schedule
+							' or . = '
+								
+								open new schedule
+							')]) = count(//button[@id = 'btnOpenNewSchedule' and @type = 'button' and (text() = '
+								
+								open new schedule
+							' or . = '
+								
+								open new schedule
+							')])]})
+
+2018-04-05 10:47:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=//button[@id = 'btnOpenSchedule' and @type = 'button' and (text() = '
+								
+								Open schedule manually
+							' or . = '
+								
+								Open schedule manually
+							')]})
+
+2018-04-05 10:47:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id("initMainpage")/table[@class="FORM"]/tbody[1]/tr[10]/td[1]/input[@class="btnSubmit ui-button ui-corner-all ui-widget"][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]})
+
+2018-04-05 10:47:26 - [TEST_STEP][FAILED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: Unable to set text 'dsadsad' of object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=//input[@name = 'openScManual.serviceNumber' and @id = 'openScManual_serviceNumber' and @type = 'text']})
+
+2018-04-05 10:47:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:26 - [MESSAGE][FAILED] - Unable to set text 'dsadsad' of object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=//input[@name = 'openScManual.serviceNumber' and @id = 'openScManual_serviceNumber' and @type = 'text']})
+
+2018-04-05 10:47:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:26 - [MESSAGE][FAILED] - Unable to set text 'BBK' of object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=//input[@id = 'autocompleteDepturePortName_autocomplete_input_id' and @name = 'autocompleteDepturePortName_autocomplete_input_name' and @type = 'text']})
+
+2018-04-05 10:47:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:47:27 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:27 - [MESSAGE][FAILED] - Unable to set text 'QAA' of object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=//input[@id = 'autocompleteArrivalPortName_autocomplete_input_id' and @name = 'autocompleteArrivalPortName_autocomplete_input_name' and @type = 'text']})
+
+2018-04-05 10:47:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:47:28 - [MESSAGE][FAILED] - Unable to set text 'dsadsad' of object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=//input[@name = 'openScManual.serviceNumber' and @id = 'openScManual_serviceNumber' and @type = 'text']})
+
+2018-04-05 10:47:28 - [TEST_STEP][FAILED] - Start listener action : sampleAfterTestCase: Cannot take screenshot (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a)
+
+2018-04-05 10:47:28 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:47:28 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:47:28 - [TEST_STEP][PASSED] - comment: 1
+
+2018-04-05 10:47:28 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@5e1218b4
+
+2018-04-05 10:47:28 - [TEST_STEP][FAILED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Cannot take screenshot (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a)
+
+2018-04-05 10:47:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-04-05 10:47:28 - [MESSAGE][FAILED] - Cannot take screenshot (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a)]]></system-out>
+         <system-err><![CDATA[2018-04-05 10:47:06 - [TEST_CASE][FAILED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength FAILED because (of) Unable to click on object 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'PG-ADUL', ip: '172.27.98.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 58.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7880, moz:profile: C:\Users\Admin\AppData\Loca..., moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: cf4de4f5-f058-43ab-9509-f37d76f80b0a
+*** Element info: {Using=xpath, value=id("initMainpage")/table[@class="FORM"]/tbody[1]/tr[10]/td[1]/input[@class="btnSubmit ui-button ui-corner-all ui-widget"][count(. | //input[@type = 'button']) = count(//input[@type = 'button'])]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-05 10:47:05 - [TEST_SUITE][INCOMPLETE] - addOpenSchedule: null]]></system-out>
+      <system-err><![CDATA[2018-04-05 10:47:05 - [TEST_SUITE][INCOMPLETE] - addOpenSchedule: null]]></system-err>
+   </testsuite>
+</testsuites>

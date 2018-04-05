@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alert message</name>
+   <tag></tag>
+   <elementGuidId>d7a0877a-0320-4c8a-84ad-0e83b6c28cb2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;tblMessage&quot;)/tbody[1]/tr[1]/td[@class=&quot;MESSAGE&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MESSAGE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Flight number cannot be blank.Departure port cannot be blank.Departure date cannot be blank.Departure time cannot be blank.Arrival port cannot be blank.Arrival date cannot be blank.Arrival time cannot be blank.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tblMessage&quot;)/tbody[1]/tr[1]/td[@class=&quot;MESSAGE&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -6,6 +6,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import internal.GlobalVariable
+
 public class Verify {
 
 	@Keyword
@@ -16,29 +18,35 @@ public class Verify {
 	}
 	
 	@Keyword
-	public static boolean verifyValueLenght(TestObject object, long expectedNumber){
+	public static boolean verifyValueLenght(TestObject object, String expectedNumber){
 		String expectedData = WebUI.getAttribute(object, "value")
-		WebUI.verifyLessThanOrEqual(expectedData.length(), expectedNumber)
+		WebUI.verifyLessThanOrEqual(expectedData.length(),Long.valueOf(expectedNumber))
 		
 	}
 	
 	@Keyword
 	public boolean isConTrainsText(TestObject object, String expectedText){
+		WebUI.waitForElementVisible(object, GlobalVariable.G_Timeout)
+		WebUI.comment(expectedText)
 		String text = WebUI.getText(object)
+		WebUI.comment(text)
 		if (text.indexOf(expectedText) > -1) {
 			KeywordUtil.markPassed("Pass, Object is Contains Text.")
 			
 		} else {
-			KeywordUtil.markError("Fail, Object is not Contains Text.")
+			KeywordUtil.markFailed("Fail, Object is not Contains Text.")
 			
 		}
 	}
 	
 	@Keyword
 	public boolean notConTrainsText(TestObject object, String expectedText){
+		WebUI.waitForElementVisible(object, GlobalVariable.G_Timeout)
+			WebUI.comment(expectedText)
 		String text = WebUI.getText(object)
-		if (text.indexOf(exceptedResult) > -1) {
-			KeywordUtil.markError("Fail, Object is Contains Text.")
+		WebUI.comment("Texttttttttttt "+text)
+		if (text.indexOf(expectedText) > -1) {
+			KeywordUtil.markFailed("Fail, Object is Contains Text.")
 			
 		} else {
 			KeywordUtil.markPassed("Pass, Object is not Contains Text.")

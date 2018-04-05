@@ -11,7 +11,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 public class InputFormat {
 
 	@Keyword
-	private void setInputDate(TestObject object, String inputDate){
+	public static setInputDate(TestObject object, String inputDate){
 		WebElement element = WebUiCommonHelper.findWebElement(object, 3)
 		WebUI.sendKeys(object, Keys.chord(Keys.CONTROL, 'a'))
 		element.sendKeys(inputDate)
@@ -19,7 +19,7 @@ public class InputFormat {
 	}
 	
 	@Keyword
-	private void setInputTime(TestObject object, String inputTime){
+	public static void setInputTime(TestObject object, String inputTime){
 		WebElement element = WebUiCommonHelper.findWebElement(object, 3)
 		WebUI.sendKeys(object, Keys.chord(Keys.CONTROL, 'a'))
 		element.sendKeys(inputTime)

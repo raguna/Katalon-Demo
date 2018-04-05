@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Firefox 58.0,,2018-04-04 13:15:29,2018-04-04 13:15:42,13.676s,PASSED
+,,,,,,
+Test Cases/tests,Firefox 58.0,,2018-04-04 13:15:30,2018-04-04 13:15:42,11.830s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-04 13:15:30,2018-04-04 13:15:30,0.005s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-04 13:15:30,2018-04-04 13:15:42,11.398s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-04 13:15:42,2018-04-04 13:15:42,0.185s,PASSED

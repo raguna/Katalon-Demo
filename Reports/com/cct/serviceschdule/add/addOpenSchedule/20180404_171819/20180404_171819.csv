@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addOpenSchedule,Firefox 58.0,,2018-04-04 17:18:21,2018-04-04 17:18:40,18.881s,ERROR
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail,Firefox 58.0,,2018-04-04 17:18:22,2018-04-04 17:18:40,17.512s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-04 17:18:22,2018-04-04 17:18:22,0.010s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-04 17:18:22,2018-04-04 17:18:34,11.627s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-04 17:18:34,2018-04-04 17:18:35,1.367s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-04 17:18:35,2018-04-04 17:18:39,3.887s,PASSED
+click,Firefox 58.0,,2018-04-04 17:18:39,2018-04-04 17:18:39,0.287s,PASSED
+com.cct.util.Verify.isConTrainsText,Firefox 58.0,,2018-04-04 17:18:39,2018-04-04 17:18:40,0.114s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-04 17:18:40,2018-04-04 17:18:40,0.014s,ERROR

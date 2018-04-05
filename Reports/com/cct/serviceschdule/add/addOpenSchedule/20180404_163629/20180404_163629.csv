@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addOpenSchedule,Firefox 58.0,,2018-04-04 16:36:31,2018-04-04 16:37:38,1m - 7.519s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail,Firefox 58.0,,2018-04-04 16:36:32,2018-04-04 16:36:49,17.416s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-04 16:36:32,2018-04-04 16:36:32,0.003s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-04 16:36:32,2018-04-04 16:36:43,11.458s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-04 16:36:43,2018-04-04 16:36:45,1.297s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-04 16:36:45,2018-04-04 16:36:49,3.845s,PASSED
+click,Firefox 58.0,,2018-04-04 16:36:49,2018-04-04 16:36:49,0.288s,PASSED
+com.cct.util.Verify.isConTrainsText,Firefox 58.0,,2018-04-04 16:36:49,2018-04-04 16:36:49,0.115s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-04 16:36:49,2018-04-04 16:36:49,0.209s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-04 16:36:49,2018-04-04 16:37:06,16.408s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-04 16:36:49,2018-04-04 16:36:49,0.001s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-04 16:36:49,2018-04-04 16:37:00,10.756s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-04 16:37:00,2018-04-04 16:37:02,1.519s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-04 16:37:02,2018-04-04 16:37:05,3.611s,PASSED
+click,Firefox 58.0,,2018-04-04 16:37:05,2018-04-04 16:37:06,0.256s,PASSED
+com.cct.util.Verify.notConTrainsText,Firefox 58.0,,2018-04-04 16:37:06,2018-04-04 16:37:06,0.077s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-04 16:37:06,2018-04-04 16:37:06,0.012s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-04 16:37:06,2018-04-04 16:37:22,15.927s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-04 16:37:06,2018-04-04 16:37:06,0.000s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-04 16:37:06,2018-04-04 16:37:16,10.691s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-04 16:37:16,2018-04-04 16:37:18,1.289s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-04 16:37:18,2018-04-04 16:37:21,3.544s,PASSED
+click,Firefox 58.0,,2018-04-04 16:37:21,2018-04-04 16:37:21,0.256s,PASSED
+com.cct.util.Verify.notConTrainsText,Firefox 58.0,,2018-04-04 16:37:21,2018-04-04 16:37:22,0.118s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-04 16:37:22,2018-04-04 16:37:22,0.014s,PASSED
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-04 16:37:22,2018-04-04 16:37:38,16.211s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-04 16:37:22,2018-04-04 16:37:22,0.000s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-04 16:37:22,2018-04-04 16:37:32,10.863s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-04 16:37:32,2018-04-04 16:37:34,1.328s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-04 16:37:34,2018-04-04 16:37:37,3.647s,PASSED
+click,Firefox 58.0,,2018-04-04 16:37:37,2018-04-04 16:37:38,0.283s,PASSED
+com.cct.util.Verify.notConTrainsText,Firefox 58.0,,2018-04-04 16:37:38,2018-04-04 16:37:38,0.065s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-04 16:37:38,2018-04-04 16:37:38,0.014s,PASSED

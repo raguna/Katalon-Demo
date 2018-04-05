@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="addOpenSchedule" time="261" tests="14" failures="0" errors="0">
+   <testsuite name="addOpenSchedule" tests="14" failures="0" errors="0" time="261" timestamp="2018-04-05 10:50:13" hostname="PG-Adul - PG-Adul.mshome.net" id="Test Suites/com/cct/serviceschdule/add/addOpenSchedule">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\Katalon-Demo\\Reports\\com\\cct\\serviceschdule\\add\\addOpenSchedule\\20180405_105011"/>
+         <property name="logFiles" value="D:\\Demo\\Katalon-Demo\\Reports\\com\\cct\\serviceschdule\\add\\addOpenSchedule\\20180405_105011\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PG-Adul - PG-Adul.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="172.27.98.17"/>
+         <property name="sessionId" value="e49344c5-dce0-4f8f-83d4-35c6c1d3281f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:50:14 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:50:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:50:14 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:50:21 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:50:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:50:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:50:24 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:50:24 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:50:24 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:50:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:50:27 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:50:27 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:50:28 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:50:28 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:50:28 - [MESSAGE][PASSED] - Text 'dsadsad' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:50:28 - [MESSAGE][PASSED] - Text 'BBK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:50:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:50:29 - [MESSAGE][PASSED] - Text 'QAA' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:50:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:50:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:50:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:50:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:50:31 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:50:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:50:32 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - com.cct.util.Verify.isConTrainsText: Pass, Object is Contains Text.
+
+2018-04-05 10:50:32 - [MESSAGE][PASSED] - Object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-05 10:50:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is: 'Invalid flight number. Must in the format AA(X)NNNN(X) where : ‘AA’ will be IATA CODE, ‘(X)’ is optional alphabet and ‘N is mandatory numeric.'
+
+2018-04-05 10:50:32 - [MESSAGE][PASSED] - Pass, Object is Contains Text.
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - comment: 1
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@25b5c5e3
+
+2018-04-05 10:50:32 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:50:33 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:50:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:50:33 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:50:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:50:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:50:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:50:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:50:59 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:51:00 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:51:00 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:51:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:01 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:01 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:51:03 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:03 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:03 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:51:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:51:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:51:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:05 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:51:05 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:51:05 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:51:05 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:51:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:06 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - com.cct.util.Verify.notConTrainsText: Pass, Object is not Contains Text.
+
+2018-04-05 10:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-05 10:51:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is: 'Departure port cannot be blank.
+Departure date cannot be blank.
+Departure time cannot be blank.
+Arrival port cannot be blank.
+Arrival date cannot be blank.
+Arrival time cannot be blank.'
+
+2018-04-05 10:51:07 - [MESSAGE][PASSED] - Pass, Object is not Contains Text.
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - comment: 2
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@5782d777
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:51:07 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:51:07 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:51:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:51:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:51:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:51:16 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:51:16 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:51:16 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:51:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:18 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:18 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:51:19 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:19 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:20 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:51:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:51:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:51:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:51:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:51:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:51:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:51:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:23 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - com.cct.util.Verify.notConTrainsText: Pass, Object is not Contains Text.
+
+2018-04-05 10:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-05 10:51:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is: 'Departure port cannot be blank.
+Departure date cannot be blank.
+Departure time cannot be blank.
+Arrival port cannot be blank.
+Arrival date cannot be blank.
+Arrival time cannot be blank.'
+
+2018-04-05 10:51:23 - [MESSAGE][PASSED] - Pass, Object is not Contains Text.
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - comment: 3
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@62628e78
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:51:23 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:51:23 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:51:29 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:51:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:51:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:51:33 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:51:33 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:51:33 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:51:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:35 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:35 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:51:36 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:36 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:36 - [MESSAGE][PASSED] - Text '1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:51:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:51:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:51:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:51:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:51:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:51:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:51:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:40 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - com.cct.util.Verify.notConTrainsText: Pass, Object is not Contains Text.
+
+2018-04-05 10:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-05 10:51:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' is: 'Departure port cannot be blank.
+Departure date cannot be blank.
+Departure time cannot be blank.
+Arrival port cannot be blank.
+Arrival date cannot be blank.
+Arrival time cannot be blank.'
+
+2018-04-05 10:51:40 - [MESSAGE][PASSED] - Pass, Object is not Contains Text.
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - comment: 4
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@507b79f7
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/arrPort" classname="Test Cases/com/cct/serviceschedule/openschedule/add/arrPort" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:51:40 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/arrPort: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:51:40 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:51:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:51:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:51:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:51:50 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:51:50 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:51:50 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:51:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:52 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:51:52 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:51:53 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:51:53 - [TEST_STEP][PASSED] - com.cct.util.Dropdownlist.selectDropdownlist: com.cct.util.Dropdownlist.selectDropdownlist is PASSED
+
+2018-04-05 10:51:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-05 10:51:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:57 - [MESSAGE][PASSED] - com.cct.util.Dropdownlist.selectDropdownlist is PASSED
+
+2018-04-05 10:51:57 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:51:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:51:57 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:51:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:51:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:51:59 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:51:59 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:51:59 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:51:59 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:52:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:00 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN' are matched.
+
+2018-04-05 10:52:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN' are matched.
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - comment: 5
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@38320e34
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:52:00 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:00 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:52:01 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:52:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:52:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:52:10 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:52:10 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:52:10 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:52:10 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:52:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:12 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:12 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:52:12 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:52:13 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:52:13 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:52:13 - [MESSAGE][PASSED] - Text 'PQQ' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:52:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:14 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:52:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:16 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:52:16 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:52:16 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:52:16 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:52:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:17 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:52:17 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:52:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - comment: 6
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@3d7b1f1c
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:52:17 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:52:17 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:52:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:52:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:52:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:52:26 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:52:26 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:52:26 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:52:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:29 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:29 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:52:30 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:52:30 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:30 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:52:30 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:52:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:31 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:52:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:32 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:52:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:52:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:52:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:52:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:34 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:52:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - comment: 7
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@23706db8
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:52:34 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:52:34 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:52:39 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:52:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:52:43 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:52:43 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:52:43 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:52:43 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:52:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:45 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:45 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:52:46 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:52:46 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:47 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:52:47 - [MESSAGE][PASSED] - Text 'PQQ' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:52:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:52:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:49 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:52:49 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:52:49 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:52:49 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:52:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:52:50 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:52:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:52:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:52:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - comment: 8
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@3ab6678b
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:52:51 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:52:51 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:52:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:52:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:52:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:52:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:52:59 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:52:59 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:52:59 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:53:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:02 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:02 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:53:03 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:03 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:03 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:53:03 - [MESSAGE][PASSED] - Text 'PQQ' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:53:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:04 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:53:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:05 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:53:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:53:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:53:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:53:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:07 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - comment: 9
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@3531f3ca
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:53:07 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:53:07 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:53:13 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:53:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:53:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:53:16 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:53:16 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:53:16 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:53:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:18 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:18 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:53:20 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:20 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:20 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:53:20 - [MESSAGE][PASSED] - Text 'PQQ' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:53:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:21 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:53:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:53:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:53:22 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:53:23 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:53:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:24 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - comment: 10
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@29eda4f8
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:53:24 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:53:24 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:53:30 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:53:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:53:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:53:33 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:53:33 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:53:33 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:53:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:36 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:36 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:53:37 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:37 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:37 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:53:37 - [MESSAGE][PASSED] - Text 'PQQ' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:53:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:38 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:53:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:39 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:53:40 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:53:40 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:53:40 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:53:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:41 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - comment: 11
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@260a3a5e
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/blankValue" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:53:41 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/blankValue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:53:41 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:53:47 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:53:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:53:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:53:50 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:53:50 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:53:51 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:53:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:53 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:53 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:53:54 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:53:54 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:54 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:53:54 - [MESSAGE][PASSED] - Text 'PQQ' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:53:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:55 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:53:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:56 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:53:57 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:53:57 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:53:57 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:53:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:53:58 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message' are matched.
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - comment: 12
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@278667fd
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/depPort" classname="Test Cases/com/cct/serviceschedule/openschedule/add/depPort" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:53:58 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/depPort: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:53:58 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:53:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:54:03 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:54:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:54:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:54:07 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:54:07 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:54:07 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:54:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:09 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:54:09 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:54:11 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:54:11 - [TEST_STEP][PASSED] - com.cct.util.Dropdownlist.selectDropdownlist: com.cct.util.Dropdownlist.selectDropdownlist is PASSED
+
+2018-04-05 10:54:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-05 10:54:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:14 - [MESSAGE][PASSED] - com.cct.util.Dropdownlist.selectDropdownlist is PASSED
+
+2018-04-05 10:54:14 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:54:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:54:15 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:54:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:16 - [MESSAGE][PASSED] - Text 'Dmk' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:54:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:54:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:54:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:54:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:54:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:18 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' are matched.
+
+2018-04-05 10:54:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' are matched.
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - comment: 13
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@2f00f851
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength" status="PASSED">
+         <system-out><![CDATA[2018-04-05 10:54:18 - [TEST_CASE][PASSED] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-05 10:54:18 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:54:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-05 10:54:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-05 10:54:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-05 10:54:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-05 10:54:27 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-05 10:54:27 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-05 10:54:27 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-05 10:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-05 10:54:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:29 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-05 10:54:29 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-05 10:54:30 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-05 10:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-05 10:54:31 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-05 10:54:31 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:54:31 - [MESSAGE][PASSED] - Text 'A1234Aaa' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-05 10:54:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-05 10:54:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:32 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-05 10:54:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-05 10:54:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-05 10:54:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-05 10:54:33 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-05 10:54:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-05 10:54:34 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - com.cct.util.Verify.verifyValueLenght: com.cct.util.Verify.verifyValueLenght is PASSED
+
+2018-04-05 10:54:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb' is: 'A1234A'
+
+2018-04-05 10:54:34 - [MESSAGE][PASSED] - Actual number '6' is less than or equal to expected number '6'
+
+2018-04-05 10:54:34 - [MESSAGE][PASSED] - com.cct.util.Verify.verifyValueLenght is PASSED
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - comment: 14
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@51288417
+
+2018-04-05 10:54:34 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-05 10:50:13 - [TEST_SUITE][PASSED] - addOpenSchedule: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

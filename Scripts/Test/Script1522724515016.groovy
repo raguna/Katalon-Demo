@@ -22,6 +22,8 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'com.cct.common.security.login.Login.loginDefault'()
 
+WebUI.acceptAlert()
+
 CustomKeywords.'com.cct.common.security.mainpage.Mainpage.selectMenu'(findTestObject('com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins'))
 
 WebUI.delay(1)

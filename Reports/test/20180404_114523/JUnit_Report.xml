@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="13" tests="0" failures="0" errors="1">
+   <testsuite name="test" tests="0" failures="0" errors="1" time="13" timestamp="2018-04-04 11:45:48" hostname="PG-Adul - PG-Adul.mshome.net" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\Katalon-Demo\\Reports\\test\\20180404_114523"/>
+         <property name="logFiles" value="D:\\Demo\\Katalon-Demo\\Reports\\test\\20180404_114523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PG-Adul - PG-Adul.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="172.27.98.17"/>
+         <property name="sessionId" value="025034aa-6b31-4af2-b424-8dbd032879bd"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/tests" classname="Test Cases/tests" status="ERROR">
+         <error type="ERROR" message="java.lang.NullPointerException: Cannot invoke method createRow() on null object"/>
+         <system-out><![CDATA[2018-04-04 11:45:49 - [TEST_CASE][ERROR] - Test Cases/tests: java.lang.NullPointerException: Cannot invoke method createRow() on null object
+
+2018-04-04 11:45:49 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-04 11:45:49 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-04 11:45:56 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-04 11:45:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-04 11:45:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-04 11:45:59 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-04 11:45:59 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-04 11:45:59 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-04 11:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-04 11:46:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-04 11:46:02 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-04 11:46:02 - [TEST_STEP][ERROR] - Start listener action : sampleAfterTestCase: java.lang.NullPointerException: Cannot invoke method createRow() on null object
+
+2018-04-04 11:46:02 - [TEST_STEP][ERROR] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, sheet, rowIndex, testCaseContext): java.lang.NullPointerException: Cannot invoke method createRow() on null object
+
+2018-04-04 11:46:02 - [MESSAGE][ERROR] - java.lang.NullPointerException: Cannot invoke method createRow() on null object]]></system-out>
+         <system-err><![CDATA[2018-04-04 11:45:49 - [TEST_CASE][ERROR] - Test Cases/tests: java.lang.NullPointerException: Cannot invoke method createRow() on null object]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-04 11:45:48 - [TEST_SUITE][ERROR] - test: java.lang.NullPointerException: Cannot invoke method createRow() on null object]]></system-out>
+      <system-err><![CDATA[2018-04-04 11:45:48 - [TEST_SUITE][ERROR] - test: java.lang.NullPointerException: Cannot invoke method createRow() on null object]]></system-err>
+   </testsuite>
+</testsuites>

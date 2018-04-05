@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addOpenSchedule,Firefox 58.0,,2018-04-05 10:32:06,2018-04-05 10:32:26,19.752s,ERROR
+,,,,,,
+Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberLength,Firefox 58.0,,2018-04-05 10:32:07,2018-04-05 10:32:25,18.085s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-05 10:32:07,2018-04-05 10:32:07,0.002s,PASSED
+com.cct.common.security.login.Login.loginDefault,Firefox 58.0,,2018-04-05 10:32:07,2018-04-05 10:32:20,12.403s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-05 10:32:20,2018-04-05 10:32:21,1.349s,PASSED
+com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-05 10:32:21,2018-04-05 10:32:25,3.768s,PASSED
+com.cct.util.Verify.verifyValueLenght,Firefox 58.0,,2018-04-05 10:32:25,2018-04-05 10:32:25,0.074s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-05 10:32:25,2018-04-05 10:32:25,0.182s,PASSED
