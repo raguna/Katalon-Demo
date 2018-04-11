@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="addOpenSchedule" time="69" tests="2" failures="0" errors="16">
+   <testsuite name="addOpenSchedule" tests="2" failures="0" errors="16" time="69" timestamp="2018-04-11 09:34:37" hostname="PG-Adul - PG-Adul.mshome.net" id="Test Suites/serviceschdule/add/addOpenSchedule">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435"/>
+         <property name="logFiles" value="D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\execution0.log"/>
+         <property name="attachments" value="D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-2.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-3.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-4.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-5.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-6.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-7.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-8.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-9.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-10.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-11.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-12.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-15.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-16.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-17.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-18.png, D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-19.png"/>
+         <property name="hostName" value="PG-Adul - PG-Adul.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="172.27.98.17"/>
+         <property name="sessionId" value="e1f4e9d7-1eed-4373-ad7c-9b5eda80262b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:12 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:12 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:12 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - comment: 1
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@1237e0be
+
+2018-04-11 09:35:12 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-2.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:12 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:14 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:14 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:14 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - comment: 2
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@592238c5
+
+2018-04-11 09:35:14 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-3.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:14 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:15 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:15 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:15 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - comment: 3
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@cfbc8e8
+
+2018-04-11 09:35:15 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-4.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:15 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:17 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:17 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:17 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - comment: 4
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@bc4d5e1
+
+2018-04-11 09:35:17 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-5.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:17 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:18 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:18 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:18 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - comment: 5
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@5136207f
+
+2018-04-11 09:35:18 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-6.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:18 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:19 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:20 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:20 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - comment: 6
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@2764c546
+
+2018-04-11 09:35:20 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-7.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:19 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:21 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:21 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:21 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - comment: 7
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@45d6ef73
+
+2018-04-11 09:35:21 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-8.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:21 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:22 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:22 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:22 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - comment: 8
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@67440de6
+
+2018-04-11 09:35:22 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-9.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:22 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:23 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:23 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:23 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - comment: 9
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@3910fe11
+
+2018-04-11 09:35:23 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-10.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:23 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:24 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:24 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:24 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - comment: 10
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@327c7bea
+
+2018-04-11 09:35:24 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-11.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:24 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/blankValue" classname="Test Cases/serviceschedule/openschedule/add/blankValue" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:26 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:26 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:26 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - comment: 11
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@252f626c
+
+2018-04-11 09:35:26 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-12.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:26 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/blankValue: Test Cases/serviceschedule/openschedule/add/blankValue FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberLength" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberLength" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/FlightNumberLength FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:27 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberLength: Test Cases/serviceschedule/openschedule/add/FlightNumberLength FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:27 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:27 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - comment: 12
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@f4c0e4e
+
+2018-04-11 09:35:27 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-15.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:27 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/FlightNumberLength: Test Cases/serviceschedule/openschedule/add/FlightNumberLength FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" classname="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:28 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:28 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:28 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - comment: 13
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@692fd26
+
+2018-04-11 09:35:28 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-16.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:28 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" classname="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:29 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:29 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:29 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - comment: 14
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@328902d5
+
+2018-04-11 09:35:29 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-17.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:29 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" classname="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:30 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:30 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:30 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - comment: 15
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@28348c6
+
+2018-04-11 09:35:30 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-18.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:30 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" classname="Test Cases/serviceschedule/openschedule/add/arrDate_depDate" status="ERROR">
+         <error type="ERROR" message="Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]"/>
+         <system-out><![CDATA[2018-04-11 09:35:32 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:32 - [TEST_STEP][ERROR] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:32 - [MESSAGE][ERROR] - No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - comment: 16
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@681adc8f
+
+2018-04-11 09:35:32 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-11 09:35:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\serviceschdule\\add\\addOpenSchedule\\20180411_093435\\D:/testreport/addOpenSchedule/addOpenSchedule_11042018093438/TEST-ID-19.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-11 09:35:32 - [TEST_CASE][ERROR] - Test Cases/serviceschedule/openschedule/add/arrDate_depDate: Test Cases/serviceschedule/openschedule/add/arrDate_depDate FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/ArrDepPort" classname="Test Cases/serviceschedule/openschedule/add/ArrDepPort" status="PASSED">
+         <system-out><![CDATA[2018-04-11 09:35:33 - [TEST_CASE][PASSED] - Test Cases/serviceschedule/openschedule/add/ArrDepPort: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 09:35:33 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:33 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 09:35:34 - [MESSAGE][PASSED] - Navigate to 'http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action' successfully
+
+2018-04-11 09:35:34 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 09:35:34 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 09:35:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-11 09:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is visible
+
+2018-04-11 09:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-11 09:35:34 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/ul_ArrivalDeparture' is visible
+
+2018-04-11 09:35:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:36 - [MESSAGE][PASSED] - Text 'DMK' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-11 09:35:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:37 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-11 09:35:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:38 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-11 09:35:38 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-11 09:35:38 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-11 09:35:38 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-11 09:35:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:39 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' are matched.
+
+2018-04-11 09:35:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' are matched.
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - comment: 17
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@3be4fcc0
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/ArrDepPort" classname="Test Cases/serviceschedule/openschedule/add/ArrDepPort" status="PASSED">
+         <system-out><![CDATA[2018-04-11 09:35:39 - [TEST_CASE][PASSED] - Test Cases/serviceschedule/openschedule/add/ArrDepPort: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 09:35:39 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 09:35:40 - [MESSAGE][PASSED] - Navigate to 'http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action' successfully
+
+2018-04-11 09:35:40 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 09:35:40 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 09:35:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-11 09:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is visible
+
+2018-04-11 09:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-11 09:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/ul_ArrivalDeparture' is visible
+
+2018-04-11 09:35:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:42 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-11 09:35:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:43 - [MESSAGE][PASSED] - Text 'Dmk' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-11 09:35:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:44 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-11 09:35:44 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-11 09:35:45 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-11 09:35:45 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-11 09:35:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 09:35:46 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' are matched.
+
+2018-04-11 09:35:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN' are matched.
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - comment: 18
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@69e05f61
+
+2018-04-11 09:35:46 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-11 09:34:37 - [TEST_SUITE][ERROR] - addOpenSchedule: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-out>
+      <system-err><![CDATA[2018-04-11 09:34:37 - [TEST_SUITE][ERROR] - addOpenSchedule: Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage() is applicable for argument types: (java.lang.String) values: [http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action]]]></system-err>
+   </testsuite>
+</testsuites>

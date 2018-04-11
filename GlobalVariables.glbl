@@ -27,4 +27,9 @@
       <initValue>'Nn@1234'</initValue>
       <name>G_Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:/testreport'</initValue>
+      <name>G_ReportPath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

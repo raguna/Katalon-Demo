@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+test,Firefox 58.0,,2018-04-11 11:12:55,2018-04-11 11:13:32,37.568s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-11 11:13:11,2018-04-11 11:13:19,7.279s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 11:13:11,2018-04-11 11:13:11,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 11:13:12,2018-04-11 11:13:12,0.478s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-11 11:13:12,2018-04-11 11:13:18,5.885s,PASSED
+click,Firefox 58.0,,2018-04-11 11:13:18,2018-04-11 11:13:18,0.295s,PASSED
+util.Verify.notConTrainsText,Firefox 58.0,,2018-04-11 11:13:18,2018-04-11 11:13:18,0.167s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 11:13:18,2018-04-11 11:13:19,0.164s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-11 11:13:19,2018-04-11 11:13:25,6.438s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 11:13:19,2018-04-11 11:13:19,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 11:13:19,2018-04-11 11:13:19,0.485s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-11 11:13:19,2018-04-11 11:13:25,5.464s,PASSED
+click,Firefox 58.0,,2018-04-11 11:13:25,2018-04-11 11:13:25,0.332s,PASSED
+util.Verify.notConTrainsText,Firefox 58.0,,2018-04-11 11:13:25,2018-04-11 11:13:25,0.098s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 11:13:25,2018-04-11 11:13:25,0.026s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-11 11:13:25,2018-04-11 11:13:32,6.680s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 11:13:25,2018-04-11 11:13:25,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 11:13:25,2018-04-11 11:13:26,0.750s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-11 11:13:26,2018-04-11 11:13:31,5.463s,PASSED
+click,Firefox 58.0,,2018-04-11 11:13:31,2018-04-11 11:13:32,0.317s,PASSED
+util.Verify.notConTrainsText,Firefox 58.0,,2018-04-11 11:13:32,2018-04-11 11:13:32,0.101s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 11:13:32,2018-04-11 11:13:32,0.034s,PASSED

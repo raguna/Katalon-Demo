@@ -1,0 +1,96 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addOpenSchedule,Firefox 58.0,,2018-04-11 09:34:37,2018-04-11 09:35:46,1m - 9.116s,ERROR
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatFail,Firefox 58.0,,2018-04-11 09:35:12,2018-04-11 09:35:14,1.747s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:12,2018-04-11 09:35:12,0.003s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:12,2018-04-11 09:35:12,0.019s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:12,2018-04-11 09:35:14,1.344s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-11 09:35:14,2018-04-11 09:35:15,1.611s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:14,2018-04-11 09:35:14,0.002s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:14,2018-04-11 09:35:14,0.010s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:14,2018-04-11 09:35:15,1.264s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-11 09:35:15,2018-04-11 09:35:17,1.276s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:15,2018-04-11 09:35:15,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:15,2018-04-11 09:35:15,0.007s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:15,2018-04-11 09:35:17,1.232s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue,Firefox 58.0,,2018-04-11 09:35:17,2018-04-11 09:35:18,1.330s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:17,2018-04-11 09:35:17,0.003s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:17,2018-04-11 09:35:17,0.027s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:17,2018-04-11 09:35:18,1.243s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:18,2018-04-11 09:35:19,1.493s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:18,2018-04-11 09:35:18,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:18,2018-04-11 09:35:18,0.002s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:18,2018-04-11 09:35:19,1.244s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:19,2018-04-11 09:35:21,1.228s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:20,2018-04-11 09:35:20,0.002s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:20,2018-04-11 09:35:20,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:20,2018-04-11 09:35:21,1.146s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:21,2018-04-11 09:35:22,1.145s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:21,2018-04-11 09:35:21,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:21,2018-04-11 09:35:21,0.002s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:21,2018-04-11 09:35:22,1.117s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:22,2018-04-11 09:35:23,1.227s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:22,2018-04-11 09:35:22,0.002s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:22,2018-04-11 09:35:22,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:22,2018-04-11 09:35:23,1.210s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:23,2018-04-11 09:35:24,1.254s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:23,2018-04-11 09:35:23,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:23,2018-04-11 09:35:23,0.004s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:23,2018-04-11 09:35:24,1.216s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:24,2018-04-11 09:35:26,1.182s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:24,2018-04-11 09:35:24,0.002s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:24,2018-04-11 09:35:24,0.002s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:24,2018-04-11 09:35:26,1.161s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/blankValue,Firefox 58.0,,2018-04-11 09:35:26,2018-04-11 09:35:27,1.095s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:26,2018-04-11 09:35:26,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:26,2018-04-11 09:35:26,0.001s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:26,2018-04-11 09:35:27,1.079s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/FlightNumberLength,Firefox 58.0,,2018-04-11 09:35:27,2018-04-11 09:35:28,1.396s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:27,2018-04-11 09:35:27,0.002s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:27,2018-04-11 09:35:27,0.002s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:27,2018-04-11 09:35:28,1.232s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/arrDate_depDate,Firefox 58.0,,2018-04-11 09:35:28,2018-04-11 09:35:29,1.253s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:28,2018-04-11 09:35:28,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:28,2018-04-11 09:35:28,0.002s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:28,2018-04-11 09:35:29,1.068s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/arrDate_depDate,Firefox 58.0,,2018-04-11 09:35:29,2018-04-11 09:35:30,1.130s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:29,2018-04-11 09:35:29,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:29,2018-04-11 09:35:29,0.001s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:29,2018-04-11 09:35:30,1.112s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/arrDate_depDate,Firefox 58.0,,2018-04-11 09:35:30,2018-04-11 09:35:32,1.115s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:30,2018-04-11 09:35:30,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:30,2018-04-11 09:35:30,0.001s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:30,2018-04-11 09:35:32,1.098s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/arrDate_depDate,Firefox 58.0,,2018-04-11 09:35:32,2018-04-11 09:35:33,1.123s,ERROR
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:32,2018-04-11 09:35:32,0.002s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:32,2018-04-11 09:35:32,0.003s,ERROR
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:32,2018-04-11 09:35:33,1.098s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/ArrDepPort,Firefox 58.0,,2018-04-11 09:35:33,2018-04-11 09:35:39,6.753s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:33,2018-04-11 09:35:33,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:33,2018-04-11 09:35:34,0.660s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-11 09:35:34,2018-04-11 09:35:39,5.816s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-11 09:35:39,2018-04-11 09:35:39,0.084s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:39,2018-04-11 09:35:39,0.013s,PASSED
+,,,,,,
+Test Cases/serviceschedule/openschedule/add/ArrDepPort,Firefox 58.0,,2018-04-11 09:35:39,2018-04-11 09:35:46,6.208s,PASSED
+Start listener action : sampleBeforeTestCase,Firefox 58.0,,2018-04-11 09:35:39,2018-04-11 09:35:39,0.001s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage,Firefox 58.0,,2018-04-11 09:35:39,2018-04-11 09:35:40,0.521s,PASSED
+common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput,Firefox 58.0,,2018-04-11 09:35:40,2018-04-11 09:35:46,5.622s,PASSED
+verifyElementText,Firefox 58.0,,2018-04-11 09:35:46,2018-04-11 09:35:46,0.043s,PASSED
+Start listener action : sampleAfterTestCase,Firefox 58.0,,2018-04-11 09:35:46,2018-04-11 09:35:46,0.011s,PASSED

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="addOpenSchedule" time="95" tests="0" failures="0" errors="4">
+   <testsuite name="addOpenSchedule" tests="0" failures="0" errors="4" time="95" timestamp="2018-04-09 15:40:33" hostname="PG-Adul - PG-Adul.mshome.net" id="Test Suites/addOpenSchedule">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031"/>
+         <property name="logFiles" value="D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\execution0.log"/>
+         <property name="attachments" value="D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-2.png, D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-3.png, D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-4.png, D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-5.png"/>
+         <property name="hostName" value="PG-Adul - PG-Adul.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="172.27.98.17"/>
+         <property name="sessionId" value="94a0f4e3-d540-43e6-8e6b-3f5e874dc4d1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail" status="ERROR">
+         <error type="ERROR" message="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) Variable 'result' is not defined for test case."/>
+         <system-out><![CDATA[2018-04-09 15:40:34 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) Variable 'result' is not defined for test case.
+
+2018-04-09 15:40:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-09 15:40:35 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:40:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-09 15:40:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-09 15:41:00 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-09 15:41:00 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-09 15:41:00 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-09 15:41:00 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-09 15:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-09 15:41:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:04 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:41:04 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-09 15:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-09 15:41:05 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-09 15:41:05 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:41:05 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:41:05 - [MESSAGE][PASSED] - Text 'dsadsad' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-09 15:41:05 - [MESSAGE][PASSED] - Text 'BBK' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-09 15:41:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:07 - [MESSAGE][PASSED] - Text 'QAA' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-09 15:41:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-09 15:41:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-09 15:41:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-09 15:41:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-09 15:41:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:09 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:41:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - com.cct.util.Verify.isConTrainsText: Finding Test Object with id 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message'
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - comment: 1
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@191a709b
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-09 15:41:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-2.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-09 15:40:34 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) Variable 'result' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="ERROR">
+         <error type="ERROR" message="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case."/>
+         <system-out><![CDATA[2018-04-09 15:41:10 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case.
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-09 15:41:10 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:41:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-09 15:41:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-09 15:41:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-09 15:41:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-09 15:41:21 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-09 15:41:21 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-09 15:41:21 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-09 15:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-09 15:41:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:25 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:41:25 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-09 15:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-09 15:41:26 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-09 15:41:26 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:41:26 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:41:27 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-09 15:41:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-09 15:41:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-09 15:41:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:29 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-09 15:41:29 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-09 15:41:29 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-09 15:41:29 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-09 15:41:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:30 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - com.cct.util.Verify.notConTrainsText: Finding Test Object with id 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message'
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - comment: 2
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@b016b4e
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-09 15:41:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-3.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-09 15:41:10 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="ERROR">
+         <error type="ERROR" message="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case."/>
+         <system-out><![CDATA[2018-04-09 15:41:30 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case.
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-09 15:41:30 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:41:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-09 15:41:36 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-09 15:41:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-09 15:41:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-09 15:41:40 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-09 15:41:40 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-09 15:41:40 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-09 15:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-09 15:41:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:43 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:41:43 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-09 15:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-09 15:41:45 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-09 15:41:45 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:41:45 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:41:45 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-09 15:41:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-09 15:41:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-09 15:41:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-09 15:41:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-09 15:41:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-09 15:41:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-09 15:41:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:41:48 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - com.cct.util.Verify.notConTrainsText: Finding Test Object with id 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message'
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - comment: 3
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@77134e08
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-09 15:41:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-4.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-09 15:41:30 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="ERROR">
+         <error type="ERROR" message="Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case."/>
+         <system-out><![CDATA[2018-04-09 15:41:48 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case.
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-09 15:41:48 - [TEST_STEP][PASSED] - com.cct.common.security.login.Login.loginDefault: com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:41:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-09 15:41:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.87:8080/cp_cambodia/jsp/security/initLogin.action'
+
+2018-04-09 15:41:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-09 15:41:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-09 15:41:59 - [MESSAGE][PASSED] - Text 'N01' is set on object 'Object Repository/com/cct/security/login/login/input_carrierCode'
+
+2018-04-09 15:41:59 - [MESSAGE][PASSED] - Text 'N01001' is set on object 'Object Repository/com/cct/security/login/login/input_username'
+
+2018-04-09 15:41:59 - [MESSAGE][PASSED] - Text 'Nn@1234' is set on object 'Object Repository/com/cct/security/login/login/input_password'
+
+2018-04-09 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/login/login/button_Log-in' is clicked on
+
+2018-04-09 15:42:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:42:02 - [MESSAGE][PASSED] - com.cct.common.security.login.Login.loginDefault is PASSED
+
+2018-04-09 15:42:02 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/security/mainpage/main/input_btnSubmit Manage Schedule and Individual Check-Ins' is clicked on
+
+2018-04-09 15:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_open new schedule' is clicked on
+
+2018-04-09 15:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/search/button_Open schedule manually' is clicked on
+
+2018-04-09 15:42:04 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-09 15:42:04 - [TEST_STEP][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:42:04 - [MESSAGE][PASSED] - Text '1234A' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-09 15:42:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-09 15:42:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:42:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/com/cct/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-09 15:42:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:42:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-09 15:42:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-09 15:42:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-09 15:42:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/com/cct/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-09 15:42:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-09 15:42:07 - [MESSAGE][PASSED] - com.cct.common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/com/cct/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - com.cct.util.Verify.notConTrainsText: Finding Test Object with id 'Object Repository/com/cct/serviceschedule/openschedule/add/alert message'
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Taking screenshot successfully
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - comment: 4
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@7308ffff
+
+2018-04-09 15:42:07 - [TEST_STEP][PASSED] - Statement - rowIndex = com.cct.util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Taking screenshot successfully
+
+2018-04-09 15:42:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|D:\\Demo\\Katalon-Demo\\Reports\\addOpenSchedule\\20180409_154031\\D:/testreport/addOpenSchedule/addOpenSchedule_09042018154034/TEST-ID-5.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-09 15:41:48 - [TEST_CASE][ERROR] - Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatTrue FAILED because (of) Variable 'result' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-09 15:40:33 - [TEST_SUITE][ERROR] - addOpenSchedule: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) Variable 'result' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-04-09 15:40:33 - [TEST_SUITE][ERROR] - addOpenSchedule: Test Cases/com/cct/serviceschedule/openschedule/add/FlightNumberFormatFail FAILED because (of) Variable 'result' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

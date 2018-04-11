@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test" time="37" tests="3" failures="0" errors="0">
+   <testsuite name="test" tests="3" failures="0" errors="0" time="37" timestamp="2018-04-11 11:12:55" hostname="PG-Adul - PG-Adul.mshome.net" id="Test Suites/test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Demo\\Katalon-Demo\\Reports\\test\\20180411_111252"/>
+         <property name="logFiles" value="D:\\Demo\\Katalon-Demo\\Reports\\test\\20180411_111252\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PG-Adul - PG-Adul.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="172.27.98.17"/>
+         <property name="sessionId" value="1775be79-6d11-4688-b113-260e267f9ec2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="PASSED">
+         <system-out><![CDATA[2018-04-11 11:13:11 - [TEST_CASE][PASSED] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 11:13:11 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 11:13:12 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 11:13:12 - [MESSAGE][PASSED] - Navigate to 'http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action' successfully
+
+2018-04-11 11:13:12 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 11:13:12 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 11:13:12 - [MESSAGE][PASSED] - Text 'A1234A' is set on object 'Object Repository/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-11 11:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is visible
+
+2018-04-11 11:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-11 11:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/ul_ArrivalDeparture' is visible
+
+2018-04-11 11:13:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:14 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-11 11:13:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-11 11:13:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-11 11:13:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-11 11:13:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-11 11:13:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-11 11:13:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:18 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-11 11:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - util.Verify.notConTrainsText: Pass, Object is not Contains Text.
+
+2018-04-11 11:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-11 11:13:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/serviceschedule/openschedule/add/alert message' is: 'Departure port cannot be blank.
+Departure date cannot be blank.
+Departure time cannot be blank.
+Arrival port cannot be blank.
+Arrival date cannot be blank.
+Arrival time cannot be blank.'
+
+2018-04-11 11:13:18 - [MESSAGE][PASSED] - Pass, Object is not Contains Text.
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - comment: 1
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@57a48985
+
+2018-04-11 11:13:18 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="PASSED">
+         <system-out><![CDATA[2018-04-11 11:13:19 - [TEST_CASE][PASSED] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 11:13:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 11:13:19 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 11:13:19 - [MESSAGE][PASSED] - Navigate to 'http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action' successfully
+
+2018-04-11 11:13:19 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 11:13:19 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 11:13:19 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-11 11:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is visible
+
+2018-04-11 11:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-11 11:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/ul_ArrivalDeparture' is visible
+
+2018-04-11 11:13:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-11 11:13:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-11 11:13:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:23 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-11 11:13:24 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-11 11:13:24 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-11 11:13:24 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-11 11:13:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:25 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-11 11:13:25 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - util.Verify.notConTrainsText: Pass, Object is not Contains Text.
+
+2018-04-11 11:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-11 11:13:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/serviceschedule/openschedule/add/alert message' is: 'Departure port cannot be blank.
+Departure date cannot be blank.
+Departure time cannot be blank.
+Arrival port cannot be blank.
+Arrival date cannot be blank.
+Arrival time cannot be blank.'
+
+2018-04-11 11:13:25 - [MESSAGE][PASSED] - Pass, Object is not Contains Text.
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - comment: 2
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@6482eef
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" classname="Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue" status="PASSED">
+         <system-out><![CDATA[2018-04-11 11:13:25 - [TEST_CASE][PASSED] - Test Cases/serviceschedule/openschedule/add/FlightNumberFormatTrue: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CustimeListener.sampleBeforeTestCase(...)' completed.
+
+2018-04-11 11:13:25 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage: common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 11:13:26 - [MESSAGE][PASSED] - Navigate to 'http://10.100.70.87:8080/cp_cambodia/jsp/serviceschedule/gotoAddOpenSchedule.action' successfully
+
+2018-04-11 11:13:26 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.gotoPage is PASSED
+
+2018-04-11 11:13:26 - [TEST_STEP][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput: common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 11:13:26 - [MESSAGE][PASSED] - Text '1234A' is set on object 'Object Repository/serviceschedule/openschedule/add/input_openScManual.serviceNumb'
+
+2018-04-11 11:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is visible
+
+2018-04-11 11:13:26 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/span_Arrival' is clicked on
+
+2018-04-11 11:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/ul_ArrivalDeparture' is visible
+
+2018-04-11 11:13:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteDepturePortN'
+
+2018-04-11 11:13:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/serviceschedule/openschedule/add/input_autocompleteArrivalPortN'
+
+2018-04-11 11:13:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depDate_dd_'
+
+2018-04-11 11:13:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrDate_dd_'
+
+2018-04-11 11:13:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_arrTime_hh_'
+
+2018-04-11 11:13:30 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/serviceschedule/openschedule/add/input_openScManual_depTime_hh_'
+
+2018-04-11 11:13:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-04-11 11:13:31 - [MESSAGE][PASSED] - common.serviceschedule.addopenschedule.AddOpenSchedule.setValueToInput is PASSED
+
+2018-04-11 11:13:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-11 11:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/serviceschedule/openschedule/add/button_Open' is clicked on
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - util.Verify.notConTrainsText: Pass, Object is not Contains Text.
+
+2018-04-11 11:13:32 - [MESSAGE][PASSED] - Object 'Object Repository/serviceschedule/openschedule/add/alert message' is visible
+
+2018-04-11 11:13:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/serviceschedule/openschedule/add/alert message' is: 'Departure port cannot be blank.
+Departure date cannot be blank.
+Departure time cannot be blank.
+Arrival port cannot be blank.
+Arrival date cannot be blank.
+Arrival time cannot be blank.'
+
+2018-04-11 11:13:32 - [MESSAGE][PASSED] - Pass, Object is not Contains Text.
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - comment: Name: /xl/workbook.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - comment: null
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - comment: 3
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - comment: com.kms.katalon.core.context.internal.InternalTestCaseContext@2264e43c
+
+2018-04-11 11:13:32 - [TEST_STEP][PASSED] - Statement - rowIndex = util.exportExcel.createRerportdetail(wb, rowIndex, testCaseContext): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-11 11:12:55 - [TEST_SUITE][PASSED] - test: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'CustimeListener.sampleAfterTestCase(...)' completed.]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
